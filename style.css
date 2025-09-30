@@ -1,0 +1,49 @@
+@font-face {
+    font-family: batman;
+    src: url(bBatmanRobinson.ttf);
+}
+@font-face {
+    font-family: batcave;
+    src: url(Nightcore\ Demo.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(batman.png);
+    background-size: cover;
+    /* background-position: center; */
+    
+    text-align: center;
+    padding: 60px;
+}
+h1{
+    font-size: 140px;
+    color: #ffd900;
+    font-family: batman;
+    font-weight: 100;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    border: 4px solid #ffd900;
+    border-radius: 15px;
+}
+.tagline {
+    font-size: 40px;
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 40px;
+    font-family: batcave;
+}
